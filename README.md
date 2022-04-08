@@ -1,7 +1,7 @@
 # Dan-Frych | System Programming | 2022
 
 
-* ## [Lab 4 - Text Swapper](Resources/Lab4.png)
+* ### [Lab 4 - Text Swapper](Resources/Lab4.png)
 <details><summary>Детальніше</summary>
 <p>
     
@@ -22,7 +22,7 @@
 
 
 
-* ## [Lab 5 - Text Editor](Resources/Lab5.png)
+* ### [Lab 5 - Text Editor](Resources/Lab5.png)
 
 <details><summary>Детальніше</summary>
 <p>
@@ -41,7 +41,7 @@
 </p>
 </details>
 
-* ## [Lab 6 - Photo Viewer](Resources/Lab6.png)
+* ### [Lab 6 - Photo Viewer](Resources/Lab6.png)
 <details><summary>Детальніше</summary>
 <p>
     
@@ -61,7 +61,7 @@
 </p>
 </details>
 
-* ## [Lab 7 - Bank Payment](Resources/Lab7.png)
+* ### [Lab 7 - Bank Payment](Resources/Lab7.png)
 <details><summary>Детальніше</summary>
 <p>
     
@@ -93,7 +93,7 @@
 </p>
 </details>
 
-* ## [Lab 8 - Text Editor](Resources/Lab8.png)
+* ### [Lab 8 - Text Editor](Resources/Lab8.png)
 
 <details><summary>Детальніше</summary>
 <p>
