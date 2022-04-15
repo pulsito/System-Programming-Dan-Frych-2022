@@ -1,7 +1,8 @@
 # Dan-Frych | System Programming | 2022
 
+
 * ## [Lab 1 - Solver Threads](Resources/Lab1.png)
-    ###  <details><summary>Завдання</summary>
+<details><summary>Детальніше</summary>
 <p>
 
     1. Створити консольний застосунок, який запускає паралельне обчислення задач на обробку масивів різного типу та довжини. Тип задачі на обробку масиву підібрати самостійно (або з викладачем)
@@ -18,7 +19,7 @@
 </details>
 
 * ## [Lab 2 - Solver Async](Resources/Lab2.png)
-    ###  <details><summary>Завдання</summary>
+<details><summary>Детальніше</summary>
 <p>
 
     1. Створити консольний застосунок, який запускає паралельне обчислення задач на обробку масивів різного типу та довжини. Тип задачі на обробку масиву підібрати самостійно (або з викладачем)
@@ -30,9 +31,11 @@
 ### Результат:
 
 ![Lab 2](Resources/Lab2.png)
+</p>
+</details>
 
 * ## [Lab 3 - Downloader](Resources/Lab3.png)
-    ###  <details><summary>Завдання</summary>
+<details><summary>Детальніше</summary>
 <p>
 
     Потрібно створити консольний та GUI застосунки для завантаження сторінок та файлів з Інтернету.
