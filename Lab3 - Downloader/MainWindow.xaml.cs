@@ -70,7 +70,12 @@ namespace Lab3
                         DownloadStart.IsEnabled = true;
                     }
                 }
-                    
+                else
+                {
+                    DownloadStart.IsEnabled = true;
+                }
+               
+
             }
             else if (ComboBoxType.SelectedIndex == 1)
             {
