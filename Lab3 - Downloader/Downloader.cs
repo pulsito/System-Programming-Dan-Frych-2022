@@ -41,9 +41,10 @@ namespace Lab3
             
             using (WebClient = new WebClient()) 
             {
-                WebClient.OpenRead(Address);
+                
                 try
                 {
+                    WebClient.OpenRead(Address);
                     var header_contentDisposition = WebClient.ResponseHeaders["content-disposition"];
 
                     string filename = new ContentDisposition(header_contentDisposition).FileName;

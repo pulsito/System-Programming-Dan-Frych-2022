@@ -1,0 +1,42 @@
+﻿<Window x:Class="Lab9.DialogColors"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:Lab9"
+        mc:Ignorable="d"
+        FontSize="20"
+        Icon="Resources/palette.png"
+        Title="DialogColors" Height="300" Width="470">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Colors" VerticalAlignment="Center" FontSize="30"/>
+        <DockPanel Grid.Row="1" VerticalAlignment="Center">
+            <TextBlock Text="Pick main color:" HorizontalAlignment="Left"/>
+            <xctk:ColorPicker Name="ColorPickerMain" Width="200" HorizontalAlignment="Right"
+                              SelectedColorChanged="ColorPickerMain_SelectedColorChanged"/>
+        </DockPanel>
+        <DockPanel Grid.Row="2" VerticalAlignment="Center">
+            <TextBlock Text="Pick filling color:" HorizontalAlignment="Left"/>
+            <xctk:ColorPicker Name="ColorPickerFill" Width="200" HorizontalAlignment="Right"
+                              SelectedColorChanged="ColorPickerFill_SelectedColorChanged"/>
+        </DockPanel>
+        <DockPanel Grid.Row="3" VerticalAlignment="Center">
+            <TextBlock Text="Pick outline weight:" HorizontalAlignment="Left"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Slider Name="SliderOutline" ValueChanged="SliderOutline_ValueChanged"
+                    IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight"
+                    Width="200" HorizontalAlignment="Right" Minimum="0" Maximum="50"/>
+                <TextBox Text="{Binding ElementName=SliderOutline, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" Width="40" />
+            </StackPanel>
+        </DockPanel>
+        <Button  Name="btnOk" Grid.Row="4" Width="100" Height="30" Content="Ok" HorizontalAlignment="Right" Margin="20,0" Click="btnOk_Click"/>
+    </Grid>
+</Window>

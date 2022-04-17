@@ -1,7 +1,7 @@
 # Dan-Frych | System Programming | 2022
 
 
-* ## [Lab 1 - Solver Threads](Resources/Lab1.png)
+* ### [Lab 1 - Solver Threads](Resources/Lab1.png)
 <details><summary>Детальніше</summary>
 <p>
 
@@ -18,7 +18,7 @@
 </p>
 </details>
 
-* ## [Lab 2 - Solver Async](Resources/Lab2.png)
+* ### [Lab 2 - Solver Async](Resources/Lab2.png)
 <details><summary>Детальніше</summary>
 <p>
 
@@ -34,7 +34,7 @@
 </p>
 </details>
 
-* ## [Lab 3 - Downloader](Resources/Lab3.png)
+* ### [Lab 3 - Downloader](Resources/Lab3.png)
 <details><summary>Детальніше</summary>
 <p>
 
@@ -175,4 +175,67 @@
 
 </p>
 </details>
+
+* ### [Lab 9 - Paint](Resources/Lab9.png)
+
+<details><summary>Детальніше</summary>
+<p>
+    
+### Завдання:
+    
+Створити простий графічний редактор, у якого буде головне меню з пунктами
+File > New
+File > Open ... (Ctrl + O)
+File  > Save (Ctrl + S) - неактивне, якщо немає змін у малюнку
+File > Save as ...
+File > Exit (Esc)
+
+Edit > Cut - неактивне, якщо немає виділеного фрагменту малюнка
+Edit > Copy - неактивне, якщо немає виділеного фрагменту малюнка
+Edit > Paste - неактивне, якщо буфер обміну пустий
+
+Edit > Color - задає колір малювання
+Edit > Brush - задає колір заливки
+
+Edit > Tools > Point - точка
+Edit > Tools > Line - лінія
+Edit > Tools > Rect - прямокутник
+Edit > Tools > Ellipse - еліпс
+
+
+Під панеллю меню потрібно розмістити панель інструментів з кнопками, які дублюють команди меню.
+
+Під полем редагування тексту потрібно розмістити панель статусу з двома секціями
+
+1-а секція показує поточне положення курсору миші.
+2-а секція показує ім'я файлу, який зараз редагується
+
+Всі пункти меню та кнопки панелі інструментів повинні містити іконки
+
+Додати контекстне меню для виділених фрагментів малюнку
+
+### Результат:
+
+![Lab 9](Resources/Lab9.png)
+
+</p>
+</details>
+
+
+* ### [Lab 10 - DialogBox](Resources/Lab10.png)
+
+<details><summary>Детальніше</summary>
+<p>
+    
+### Завдання:
+    
+До раніше створених текстових редакторів та переглядачів файлів додати діалог налаштувань, у якому задаються шрифти, кольори, типи файлів.
+
+### Результат:
+
+![Lab 10](Resources/Lab10.png)
+
+</p>
+</details>
+
 
