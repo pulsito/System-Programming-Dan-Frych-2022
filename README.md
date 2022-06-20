@@ -308,7 +308,7 @@ Edit > Tools > Ellipse - еліпс
 
 
 
-* ### [Lab 13 - AudioPlayer](Resources/Lab12.png)
+* ### [Lab 14 - AudioBook](Resources/Lab12.png)
 
 <details><summary>Детальніше</summary>
 <p>
